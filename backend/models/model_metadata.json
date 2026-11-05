@@ -1,0 +1,57 @@
+{
+    "project": "MATW-Inspired Conversion Prediction",
+    "model_name": "Gradient Boosting",
+    "model_version": "1.0",
+    "prediction_target": "E-commerce purchase (Revenue)",
+    "donor_model_validated": false,
+    "classification_threshold": 0.2,
+    "input_features": [
+        "Administrative",
+        "Administrative_Duration",
+        "Informational",
+        "Informational_Duration",
+        "ProductRelated",
+        "ProductRelated_Duration",
+        "BounceRates",
+        "SpecialDay",
+        "Month",
+        "OperatingSystems",
+        "Browser",
+        "Region",
+        "TrafficType",
+        "VisitorType",
+        "Weekend"
+    ],
+    "numerical_features": [
+        "Administrative",
+        "Administrative_Duration",
+        "Informational",
+        "Informational_Duration",
+        "ProductRelated",
+        "ProductRelated_Duration",
+        "BounceRates",
+        "SpecialDay"
+    ],
+    "categorical_features": [
+        "Month",
+        "VisitorType",
+        "OperatingSystems",
+        "Browser",
+        "Region",
+        "TrafficType",
+        "Weekend"
+    ],
+    "training_samples": 9864,
+    "test_samples": 2466,
+    "test_metrics": {
+        "Accuracy": 0.732360097323601,
+        "Precision": 0.31010928961748635,
+        "Recall": 0.5942408376963351,
+        "F1": 0.40754039497307004,
+        "ROC-AUC": 0.7562204178432536,
+        "Average Precision": 0.3396849024352112
+    },
+    "python_version": "3.13.18",
+    "sklearn_version": "1.6.1",
+    "exported_at": "2026-11-05T09:34:28.828451+00:00"
+}
